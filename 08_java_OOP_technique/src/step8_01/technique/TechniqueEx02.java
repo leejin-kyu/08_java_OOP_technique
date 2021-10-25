@@ -84,7 +84,7 @@ public class TechniqueEx02 {
 		
 		obj.y = 2000;
 		System.out.println(obj.y);
-		
+		 
 		
 		//obj.setX(1000);					// setter을 이용하여 private변수를 수정
 		System.out.println(obj.getX()); // getter를 이용하여 private 변수에 접근
