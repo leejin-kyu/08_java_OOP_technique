@@ -78,7 +78,7 @@ public class TechniqueEx02 {
 	public static void main(String[] args) {
 		
 		ModifierTest obj = new ModifierTest();
-		
+	
 		//private 변수는 클래스 외부에서 접근 불가능
 		//obj.x = 1000;
 		
@@ -86,7 +86,7 @@ public class TechniqueEx02 {
 		System.out.println(obj.y);
 		 
 		
-		//obj.setX(1000);					// setter을 이용하여 private변수를 수정
+		//obj.setX(1000);				// setter을 이용하여 private변수를 수정
 		System.out.println(obj.getX()); // getter를 이용하여 private 변수에 접근
 		
 		System.out.println();
