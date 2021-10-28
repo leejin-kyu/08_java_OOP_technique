@@ -1,18 +1,13 @@
 package step8_01.technique;
 
 /*
-
 	# 메서드 오버라이딩 ( Method Overriding )
-
 	- 부모클래스로부터 상속 받은 메서드를 재정의(overriding)하여 사용한다.
 	- 메서드 오버로딩과 혼용되기 쉽다.
-
 */
 
 class Warrior2 extends Beginner{
-	
 	// 메서드 오버라이딩 ( 메서드 재정의 )
-	
 	void levelUp() {
 		this.level ++;
 		this.power +=1000;
@@ -55,8 +50,6 @@ public class TechniqueEx07 {
 		war2.levelUp();
 		war2.showStatus();
 		//war2.fireBall();
-
-		war2.dash();
 		//war2.fireBall();
 		
 		System.out.println("\n================\n");

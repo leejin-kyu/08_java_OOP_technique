@@ -15,7 +15,7 @@ package step8_01.technique;
  * 
  * */
 
-class Parent{
+class Parent extends Parent2{
 	
 	String name;
 	int age;
@@ -33,6 +33,36 @@ class Parent{
 		System.out.println("(부모클래스)의 테스트 메서드");
 	}
 
+	@Override
+	void test1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void test2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void test3() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void test4() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void test5() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
 
@@ -40,11 +70,11 @@ class Child extends Parent{
 	
 	Child(){
 		
-		super(); // 부모클래스의 기본 생성자를 실행 ( 기본적으로 생략되어 있다.)
+		super(); // 부모클래스의 기본 생성자를 실행 (기본적으로 생략되어 있다.)
 		//super("앨런튜링", 70); // 부모클래스의 추가된 생성자를 실행
-		
+
 		System.out.println("(C-기본)자녀클래스의 기본 생성자 실행");
-	
+
 	}
 	
 	Child(String name, int age){
