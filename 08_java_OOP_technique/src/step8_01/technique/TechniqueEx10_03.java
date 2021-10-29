@@ -44,7 +44,7 @@ public class TechniqueEx10_03 {
 		// 예시 2)
 		HashMap<String, String> testMap1 = new HashMap<String, String>();
 		Map<String, String> testMap2 = new HashMap<String, String>();
-		ArrayList<Integer> testList1 = new ArrayList<Integer>();
+		ArrayList<Integer> testList3 = new ArrayList<Integer>();
 		
 		// 예시 2)
 	}

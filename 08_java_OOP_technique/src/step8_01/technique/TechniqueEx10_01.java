@@ -54,13 +54,25 @@ class DD implements BB, CC{ //인터페이스는 ,를 이용하여 다중구현�
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void test5() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void test6() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 
 // 상속과 동시에 인터페이스 구현이 가능하다.
 //class EE extends Parent1 implements BB, CC {
 
-}
+
 
 public class TechniqueEx10_01 {
 	

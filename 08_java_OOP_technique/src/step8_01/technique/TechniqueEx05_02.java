@@ -8,13 +8,12 @@ class Fruit{
 	
 
 	// 생성자 단축키 > 좌측 상단 Source > Generate Constructor Using Fields..
-//	public Fruit(String name, int price) {
-//		super();
-//		this.name = name;
-//		this.price = price;
-//		System.out.println(this.name+"("+this.price +")");		
-//
-//	}
+	public Fruit(String name, int price) {
+		this.name = name;
+		this.price = price;
+		System.out.println(this.name+"("+this.price +")");		
+
+	}
 
 
 
