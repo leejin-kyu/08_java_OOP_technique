@@ -57,7 +57,7 @@ public class TechniqueEx12 {
 		map.put("data2", "문자열데이터"); // 문자열 데이터
 		map.put("data3",true); // 불리언 데이터
 		map.put("data4", new Student()); // Student객체
-		map.put("data5", new ArrayList<integer>()); // ArrayList
+		//map.put("data5", new ArrayList<integer>()); // ArrayList
 		
 	}
 
