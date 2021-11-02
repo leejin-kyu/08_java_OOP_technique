@@ -10,7 +10,7 @@ import java.util.HashMap;
   반면 자녀클래스는 객체를 생성 할때 부모와 자녀의 자원이 둘다 생성된다. 결국
   자녀클래스는 부모클래스의 타입으로 객체를 생성 할 수 있고,
   부모클래스는 자녀클래스의 타입으로 객체를 생성 할 수 없다.
-*/	
+*/
 
 
 // 부모 클래스
@@ -25,7 +25,7 @@ class Line extends Shape{
 }
 class Circle extends Shape{
 	void draw() { //부모 메서드를 재정의
-		System.out.println("원을 그린다.");		
+		System.out.println("원을 그린다.");
 	}
 }
 

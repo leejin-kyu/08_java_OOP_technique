@@ -41,7 +41,7 @@ interface CC {
 
 // implements 키워드를 사용하여 인터페이스를 '구현'한다. (상속x)
 
-class DD implements BB, CC{ //인터페이스는 ,를 이용하여 다중구현이 가능하다. 여러개 사용 가능 BB,CC,EE 등
+class DD implements BB, CC{ //인터페이스는를 이용하여 다중구현이 가능하다. 여러개 사용 가능 BB,CC,EE 등
 
 	@Override
 	public void test3() {

@@ -26,8 +26,8 @@ public class TechniqueEx11 {
 		Base base1 = new Base(); // 부모 클래스의 객체 생성
 		base1.baseMethod(); 	// 자신의 메서드 사용
 
-		Sub sub1 = new Sub();	// 자녀 클래스의 객체 생성
-		sub1.baseMethod();// 부모의 메서드 사용
+		Sub sub1 = new Sub(); // 자녀 클래스의 객체 생성
+		sub1.baseMethod(); // 부모의 메서드 사용
 		sub1.subMethod(); // 자신의 메서드 사용 
 		
 		System.out.println();
